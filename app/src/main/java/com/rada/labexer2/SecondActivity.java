@@ -100,7 +100,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void clear (View view) {
-        
+
 
         try {
             fos = openFileOutput("username.txt", Context.MODE_PRIVATE);
